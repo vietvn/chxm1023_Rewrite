@@ -39,8 +39,8 @@ if ($request.url.indexOf(vip) != -1){
       }
     ];
   chxm1023.member["member_name"] = "叮当猫の分享频道";
-  chxm1023.member["user_type"] = 2;
-  chxm1023.member["member_pay_flag"] = 2;
+  chxm1023.member["user_type"] = 1;
+  chxm1023.member["member_pay_flag"] = 1;
 }
 
 if ($request.url.indexOf(shijian) != -1){
