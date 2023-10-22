@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/paywall url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/FT.js
+^https?:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/(paywall|get_story_more_info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/FT.js
 
 [mitm]
 hostname = *.cloudfront.net
