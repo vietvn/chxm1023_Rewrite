@@ -9,10 +9,10 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/asia-east2-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/slidebox.js
+^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/slidebox.js
 
 [mitm]
-hostname = asia-east2-slidebox-ios-prod.cloudfunctions.net
+hostname = *-slidebox-ios-prod.cloudfunctions.net
 
 *************************************/
 
