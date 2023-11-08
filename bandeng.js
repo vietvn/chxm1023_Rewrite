@@ -20,7 +20,6 @@ hostname = mobileapp.wuyamusic.com
 var chxm1023 = JSON.parse($response.body);
 const vip = /vip\/user/;
 const yuepu = /music\/score/;
-const diange = /choose\/getmusic/;
 const ad = /(api\/msg\/listpopupmessage|app\/swiper\/listv)/;
 
 if(vip.test($request.url)){
@@ -44,12 +43,6 @@ if(yuepu.test($request.url)){
 	chxm1023.data.usableNumber = 99;
 	chxm1023.data.free = 1;
 	delete chxm1023.data.amount;
-}
-
-if(diange.test($request.url)){
-	chxm1023.musicStatus = 1;
-	chxm1023.musicFlag = 1;
-	chxm1023.status = 1;
 }
 
 if(ad.test($request.url)){
