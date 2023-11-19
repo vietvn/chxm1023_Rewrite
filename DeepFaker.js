@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.deepfaker\.app\/api\/v1\/payment\/process-ios-receipt\/ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/DeepFaker.js
+^https?:\/\/api\.deepfaker\.app\/api\/.* url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/DeepFaker.js
 
 [mitm]
 hostname = api.deepfaker.app
