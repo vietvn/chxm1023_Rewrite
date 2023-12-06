@@ -46,7 +46,6 @@ if(user.test($request.url)){
     "token" : "chxm1023"
   }];
   chxm1023.value.recognize = {
-    ...chxm1023.value.recognize,
     "remainBatch" : -100,
     "batchCount" : 1,
     "normalCount" : -100,
