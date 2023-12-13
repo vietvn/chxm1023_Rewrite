@@ -2,7 +2,7 @@
 
 项目名称：LazyBoard键盘
 下载地址：https://t.cn/A6lcsv9x
-版本支持：2.1
+版本支持：4.15
 更新日期：2023-12-14
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
@@ -35,7 +35,6 @@ if (typeof $response == "undefined") {
   chxm1024.subscriber.entitlements = chxm1024.subscriber.entitlements || {};
   const data = {
 	"product_identifier": (appid),
-	"expires_date": "2099-09-09T09:09:09Z",
 	"purchase_date": "2022-09-09T09:09:09Z"
 	};
   chxm1024.subscriber.entitlements[(name)] = (data);
