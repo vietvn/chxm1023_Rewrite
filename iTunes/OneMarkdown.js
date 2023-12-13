@@ -1,7 +1,7 @@
 /*************************************
 
 项目名称：OneMarkdown-编辑器
-下载地址：https://t.cn/A6lcu9ZS
+下载地址：https://t.cn/A6lcFM3H
 更新日期：2023-12-14
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
