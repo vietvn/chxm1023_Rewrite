@@ -1,6 +1,6 @@
 /*************************************
 
-项目名称：Wallpaper Tree壁纸
+项目名称：壁纸树-WallpaperTree
 下载地址：https://t.cn/A6lHVpzo
 更新日期：2023-12-28
 脚本作者：chxm1023
