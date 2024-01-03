@@ -23,8 +23,8 @@ hostname = api.revenuecat.com
 const chxm1023 = {};
 const chxm1024 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
-const name = "Premium";
-const appid = "ru.sexactions.boost";
+const name = "Premium Plus";
+const appid = "ru.sexactions.subscriptionPromo1";
 
 if (typeof $response == "undefined") {
   delete $request.headers["x-revenuecat-etag"];
