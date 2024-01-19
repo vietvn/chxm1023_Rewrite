@@ -28,6 +28,7 @@ if(user.test($request.url)){
   chxm1023.results = [{
       "updatedAt" : "2023-09-09T09:09:09Z",
       "vipEndTime" : 4092599349,
+      "svipEndTimeFormat" : "2099-09-09",
       "sex" : "1",
       "isSVIP" : 1,
       "isVIP" : 1,
@@ -37,6 +38,7 @@ if(user.test($request.url)){
       "headImageUrl" : "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ddm.png",
       "objectId" : "666666666666666666666666",
       "createdAt" : "2023-09-09T09:09:09Z",
+      "svipEndTime" : 4092599349,
       "coin" : 99999
   }];
 }
