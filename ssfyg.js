@@ -15,7 +15,7 @@ http:\/\/new\.xslm333\.xyz\/api\/getUserInfo url script-response-body https://ra
 [mitm]
 hostname = new.xslm333.xyz
 
-*************************************
+*************************************/
 
 
 var chxm1023 = JSON.parse($response.body);
