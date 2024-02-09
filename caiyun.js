@@ -12,7 +12,7 @@
 
 [rewrite_local]
 # VIP信息
-^https?:\/\/(biz|wrapper|starplucker)\.(cyapi|caiyunapp)\.(cn|com)\/(.+\/(user\?app_name|activity\?app_name|visitors|operation\/banners|ai\/weather\/quotas|operation\/homefeatures)|p\/v\d\/(vip_info|user_info|entries|privileges)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
+^https?:\/\/(biz|wrapper|starplucker)\.(cyapi|caiyunapp)\.(cn|com)\/(.+\/(user\?app_name|activity\?app_name|visitors|operation\/banners|ai\/weather|operation\/homefeatures)|p\/v\d\/(vip_info|user_info|entries|privileges)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
 # SVIP地图-48小时预报(方法来源:苍井灰灰)
 ^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v\d\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
 
@@ -30,7 +30,6 @@ const vipUrl = /https:\/\/biz\.(cyapi\.cn|caiyunapp\.com)\/p\/v\d\/vip_info/;
 const userUrl = /https:\/\/biz\.(cyapi\.cn|caiyunapp\.com)\/v\d\/user\?app_name/;
 const infoUrl = /https:\/\/biz\.(cyapi\.cn|caiyunapp\.com)\/p\/v\d\/user_info/;
 const aiUrl = /ai\/weather\/quotas/;
-const xxUrl = /ai\/weather\/messages/;
 const qyUrl = /entries/;
 const peUrl = /privileges/;
 const topUrl = /operation\/homefeatures/;
@@ -65,17 +64,6 @@ if (typeof $response == "undefined") {
       chxm1023.subscription_quota_end_time = 4092599349;
       chxm1023.free_remain = 999;
       chxm1023.free_quota = 999;
-      break;
-    case xxUrl.test(url):
-      // 修改quota
-        data.remain = 999;
-        data.free_remain = 999;
-        data.free_quota = 999;
-        data.subscription_remain = 999;
-        data.subscription_quota = 999;
-        data.subscription_quota_end_time = 4092599349;
-        data.addition_remain = 999;
-      
       break;
     case qyUrl.test(url):
       chxm1023["entries"] = [{  "url" : "https://t.me/chxm1023",  "id" : 1,  "name" : "叮当猫",  "type" : 1,  "pos" : 2  }];
