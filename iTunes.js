@@ -26,6 +26,7 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
+  'com.uzstudio.avenuecast.ios': { cm: 'sjblb', hx: 'hxpda', id: "1001", latest: "chxm1023" },  //凡视知音
   'CongZhenBaZi': { cm: 'sjblb', hx: 'hxpda', id: "vip_forever_78", latest: "chxm1023" },  //八字排盘-从真版
   'CongZhenQiMen': { cm: 'sjbla', hx: 'hxpda', id: "cn.congzhen.CongZhenQiMen.yearlyplan", latest: "chxm1023" },  //奇门遁甲
   'ProFit': { cm: 'sjbla', hx: 'hxpda', id: "com.maxty.gofitness.yearlyplan", latest: "chxm1023" },  //ProFit锻炼计划
