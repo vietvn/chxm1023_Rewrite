@@ -261,6 +261,7 @@ const list = {
   'Focos': { cm: 'sjbla', hx: 'hxpda', version: "6054", id: "com.focos.1w_t4_1w", latest: "chxm1023" },  //Focos
   'ProKnockOut': { cm: 'sjblb', hx: 'hxpda', version: "7", id: "com.knockout.SVIP.50off", latest: "chxm1023" },  //ProKnockOut
   'com.teadoku.flashnote': { cm: 'sjbla', hx: 'hxpda', version: "1", id: "pro_ios_ipad_mac", latest: "chxm1023" },  //AnkiNote
+  'com.studycat.sa': { cm: 'sjbla', hx: 'hxpda', version: "28.4.0", id: "com.studycat.sa.fe.t7d_12m.a60m15_off_202305_1", latest: "chxm1023" },  //Studycat
   'com.tapuniverse.texteditor': { cm: 'sjbla', hx: 'hxpda', version: "4", id: "com.tapuniverse.texteditor.w", latest: "chxm1023" }  //TextEditor
 };
 
